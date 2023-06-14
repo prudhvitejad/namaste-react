@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 100px;
+  padding-left: 40px;
+}
+
+.nav-items {
+  width: auto;
+  padding: 0 10px;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  cursor: pointer;
+  padding: 40px 10px 0 0;
+  font-size: large;
+}
+
+.header {
+  width: auto;
+  color: #000;
+  background-color: #01a390;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin: 10px;
+  font-weight: bold;
+  display: flex;
+  box-shadow: -1px 4px 20px 14px #0003;
+}
+
+.restaurant-list {
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  width: 200px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: -1px 4px 20px 14px #0003;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card > span {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.card > span > h4 {
+  text-align: center;
+}
+
+.card > span > h4:first-child {
+  color: #fff;
+  background-color: #13b001;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 5px;
+  display: flex;
+}
+
+.card > span > h4:first-child .fa-star {
+  padding: 0 5px 3px 0;
+  font-size: small;
+}
+
+.footer {
+  width: auto;
+  text-align: center;
+  background-color: #01a390;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px 10px;
+  box-shadow: -1px 4px 20px 14px #0003;
+}
+
+.footer > i {
+  padding: 0 5px;
+  font-size: smaller;
+}
+
+.fa-heart {
+  color: #8b0000;
+}
+
+.footer > strong {
+  padding-left: 5px;
+}
+
+.footer > strong > span {
+  color: #cb3600;
+}
+
+/*# sourceMappingURL=index.5ad0683e.css.map */
